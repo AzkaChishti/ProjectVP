@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C9E15F5-2727-4E6D-B882-F6D1F4DB6F40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Botique</RootNamespace>
+    <AssemblyName>Botique</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Botique_ManagementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Botique_ManagementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Botique_ManagementDataSet.xsc">
+      <DependentUpon>Botique_ManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Botique_ManagementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Botique_ManagementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Botique_ManagementDataSet.xss">
+      <DependentUpon>Botique_ManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5aba4867201f8b980acbed22ca600f98.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afe9c562ae80740ce42c23e51627a909.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5a237e1cc7113526ab986b866bf22bd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabiya boutique  %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-47074317.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fashion-Boutique-by-KNQ-Associates-Singapore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba6a31275b0d06501138f8e6871a6130.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.0x0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7a0dcc38c57d7746e456c1c6af88b735.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\687f19a8b5e0df619765aa0afe5b9ae3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4c7b2f70a52c7cd6a3c90eed380398af.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4c7b2f70a52c7cd6a3c90eed380398af1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0fa598260b51341bdeaaad0f8f0aec9f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_0c980448-ca8c-4457-84eb-81ff8cface10_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_4f2bb7ae-440c-437a-acfa-0d3c358ec496_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anarkali-Stylish-Red-Frocks-for-Wedding-Bridals-2016-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue-And-Light-Brown-Back-Trail-Maxi-for-Party-Wear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CL-211A_2_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b7cnb87cvb-dress-design-salwar-kameez-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridal-maxi-dress-walima-2014 %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fancy-Dresses-latest-Designs-2016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drophilla-world-blue-georgette-special-occasion-dre-original.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drophilla-world-blue-georgette-special-occasion-dre-original1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afe9c562ae80740ce42c23e51627a9091.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3aa68a972de9ec4f1ebe63a0f09291e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabiya boutique  %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a5a5796d70298db1bdd3198942878f7c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2826%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Платье-а-силуэта-фото-модные-тенденции-2016-2017-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-new-summer-style-fashion-100-Cotton-brand-stars-Baby-boy-t-shirt-with-half-pants.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit.jpg_220x220.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTB1c5jgKVXXXXawaXXXq6xXFXXXD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-fashion-boutiques.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABC-Fabrics-6555-1-weddingplz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cosmetics-employee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istanbul-turkey-employees-at-the-boutique-of-bahar-korcan-d2tjkx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dependienta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0afb874b021733a994d122109ca7733a--men-fashion-casual-gentleman-fashion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.0x01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4e262c7abccce81a0c3b350ece719325.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57dcf0e98eda02cf0eedcc395b6d2c17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-latest-classy-kurta-style-men-dress.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit.jpg_220x2201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93aa74c5a2377fb119a8b17ca25393b6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24a2e1d0706719d5d9871fadba231af5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-new-korea-fashion-brand-men-clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admirable-art-silk-kurta-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J.couture-Junaid-Jamshed-Men-Sherwanis-Collection-for-Weddings-Paries-2015-2016-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a99e16328a556f08b263c47da56c3c92.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bleiser-masculino-blaser-Partido-Del-Vestido-de-Boda-Chaquetas-font-b-Blazers-b-font-Traje-Chaqueta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\designer-kurta-suits-250x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-New-Trend-False-Two-Fashion-Casual-Men-Shirt-Long-Sleeve-Slim-Fit-Shirt-Men-Print.jpg_640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e828dc619e373126485e8982455bd78.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32395307521083ffed8e1a57c3795264.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eb05ab0663e89a8b4f14ab67727f763.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8d4a1eab2017cc89944e2d007b98ed66--pakistani-dress-design-pakistani-dresses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5aa3e4728a3cd7e568f8f446d6a1eb09--moda-kids-boy-outfits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-Muchachas-Del-Verano-de-la-Ropa-de-Los-Cabritos-Determinados-Conjuntos-de-Ropa-de-Beb&amp;eacute.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7887c9816cfa7bd65b722deb75d6f7f8--baby-boy-fashion-kids-fashion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13892187_1326669984040350_7565637278338882334_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af84187bafc4d9884ae8b5c1d429dd09--bridal-lehenga-lehenga-choli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design-no---7015_front.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baby-Boy-Clothing-Set-Summer-2017-New-Cotton-Children-Summer-Boys-font-b-Clothes-b-font.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d79660b750cabeb0100e2470ec26ae37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spring-Dresses-For-Girls-l9lyZs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-New-font-b-Kids-b-font-Clothing-Sets-T-shirt-Short-font-b-Pants-b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-new-summer-dress-children-font-b-designer-b-font-font-b-kids-b-font-clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby-clothes-2016-new-design-baby-girl-boutique.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attractive-design-big-girls-dress-fashion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazzling-Cute-kids-wear-party-function-frocks-designs-2017-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f7116ad6c0c325f2f9f72cf7f81c393e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rBVaJFjIvSiAAt7jAADNpNMijd8629.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25-IMG_8571.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABC-Fabrics-6555-1-weddingplz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dans-la-caverne-aux-merveilles-de-Zuhair-Murad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hermes_store_mumbai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxxe_box_store_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retail-employee-research-report.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxurysociety_1844265_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Schaufenster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sri-sai-designer-boutique-miyapur-hyderabad-cvg5k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i7534491777b1aa8b5b32c2e8666dbe1a495.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABC-Fabrics-6555-1-weddingplz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p-NeonDragonfly-boutique-Reno_59_330x220.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sri-sai-designer-boutique-miyapur-hyderabad-cvg5k1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743172.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2822%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zl17012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0ecfeaf4f18102eaf80204c51c9b56d4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Latest-Party-Wear-Frocks-dresses-2015-2016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fancy-Dresses-latest-Designs-20161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J.couture-Junaid-Jamshed-Men-Sherwanis-Collection-for-Weddings-Paries-2015-2016-91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5aba4867201f8b980acbed22ca600f981.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-summer-style-fashion-black-birds-print-font-b-Baby-b-font-boys-brand-t-shirt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017-New-Summer-Style-font-b-Baby-b-font-Girl-Pants-font-b-Baby-b-font.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017girl-baby-clothes-summer-brand-design-denim-tutu-princess-party-dress-for-infant-baby-clothing-sleeveless.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-6-year-old-baby-girl-set-summer-style-cute-tutu-dress-headband-designer-Polka-Dot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123bf7c815990b5f6d3304e247f1cbfe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e828dc619e373126485e8982455bd781.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Latest-Pakistani-Party-Wear-Winter-Dresses-Collection.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Fancy-Indian-Asian-Anarkali-Umbrella-Frocks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (16).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4e262c7abccce81a0c3b350ece719325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4e262c7abccce81a0c3b350ece719325.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attractive-design-big-girls-dress-fashion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\attractive-design-big-girls-dress-fashion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-New-Trend-False-Two-Fashion-Casual-Men-Shirt-Long-Sleeve-Slim-Fit-Shirt-Men-Print.jpg_640x640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-New-Trend-False-Two-Fashion-Casual-Men-Shirt-Long-Sleeve-Slim-Fit-Shirt-Men-Print.jpg_640x640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0fa598260b51341bdeaaad0f8f0aec9f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0fa598260b51341bdeaaad0f8f0aec9f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afe9c562ae80740ce42c23e51627a909" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afe9c562ae80740ce42c23e51627a909.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_0c980448-ca8c-4457-84eb-81ff8cface10_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_0c980448-ca8c-4457-84eb-81ff8cface10_large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fancy-Indian-Asian-Anarkali-Umbrella-Frocks2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fashion-Boutique-by-KNQ-Associates-Singapore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fashion-Boutique-by-KNQ-Associates-Singapore.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Schaufenster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Schaufenster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5a237e1cc7113526ab986b866bf22bd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5a237e1cc7113526ab986b866bf22bd1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (6)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="af84187bafc4d9884ae8b5c1d429dd09--bridal-lehenga-lehenga-choli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\af84187bafc4d9884ae8b5c1d429dd09--bridal-lehenga-lehenga-choli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dans-la-caverne-aux-merveilles-de-Zuhair-Murad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dans-la-caverne-aux-merveilles-de-Zuhair-Murad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="admirable-art-silk-kurta-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\admirable-art-silk-kurta-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istanbul-turkey-employees-at-the-boutique-of-bahar-korcan-d2tjkx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istanbul-turkey-employees-at-the-boutique-of-bahar-korcan-d2tjkx.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabiya boutique  (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabiya boutique  (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743171.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-new-summer-dress-children-font-b-designer-b-font-font-b-kids-b-font-clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-new-summer-dress-children-font-b-designer-b-font-font-b-kids-b-font-clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-جديد-الصيف-نمط-أزياء-الطباعة-طفل-الفتيان-brand-القمصان-و-الحريم-السراويل-فتاة-الملابس-الرياضية.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baby-Boy-Clothing-Set-Summer-2017-New-Cotton-Children-Summer-Boys-font-b-Clothes-b-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baby-Boy-Clothing-Set-Summer-2017-New-Cotton-Children-Summer-Boys-font-b-Clothes-b-font.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i7534491777b1aa8b5b32c2e8666dbe1a495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i7534491777b1aa8b5b32c2e8666dbe1a495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ba6a31275b0d06501138f8e6871a6130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ba6a31275b0d06501138f8e6871a6130.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5aba4867201f8b980acbed22ca600f98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5aba4867201f8b980acbed22ca600f98.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bleiser-masculino-blaser-Partido-Del-Vestido-de-Boda-Chaquetas-font-b-Blazers-b-font-Traje-Chaqueta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bleiser-masculino-blaser-Partido-Del-Vestido-de-Boda-Chaquetas-font-b-Blazers-b-font-Traje-Chaqueta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-6-year-old-baby-girl-set-summer-style-cute-tutu-dress-headband-designer-Polka-Dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-6-year-old-baby-girl-set-summer-style-cute-tutu-dress-headband-designer-Polka-Dot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-47074317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-47074317.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p-NeonDragonfly-boutique-Reno_59_330x220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p-NeonDragonfly-boutique-Reno_59_330x220.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby-clothes-2016-new-design-baby-girl-boutique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baby-clothes-2016-new-design-baby-girl-boutique.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7eb05ab0663e89a8b4f14ab67727f763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7eb05ab0663e89a8b4f14ab67727f763.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue-And-Light-Brown-Back-Trail-Maxi-for-Party-Wear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue-And-Light-Brown-Back-Trail-Maxi-for-Party-Wear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fancy-Dresses-latest-Designs-2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fancy-Dresses-latest-Designs-2016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f7116ad6c0c325f2f9f72cf7f81c393e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f7116ad6c0c325f2f9f72cf7f81c393e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-New-Summer-Style-font-b-Baby-b-font-Girl-Pants-font-b-Baby-b-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-New-Summer-Style-font-b-Baby-b-font-Girl-Pants-font-b-Baby-b-font.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0ecfeaf4f18102eaf80204c51c9b56d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0ecfeaf4f18102eaf80204c51c9b56d4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bridal-maxi-dress-walima-2014 (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bridal-maxi-dress-walima-2014 (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25-IMG_8571" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25-IMG_8571.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_dd8fc76c-f6cb-4a69-83f4-2c9cebeea36a_large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8d4a1eab2017cc89944e2d007b98ed66--pakistani-dress-design-pakistani-dresses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8d4a1eab2017cc89944e2d007b98ed66--pakistani-dress-design-pakistani-dresses.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HTB1c5jgKVXXXXawaXXXq6xXFXXXD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HTB1c5jgKVXXXXawaXXXq6xXFXXXD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7a0dcc38c57d7746e456c1c6af88b735" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7a0dcc38c57d7746e456c1c6af88b735.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drophilla-world-blue-georgette-special-occasion-dre-original1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drophilla-world-blue-georgette-special-occasion-dre-original1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zl17012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zl17012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d79660b750cabeb0100e2470ec26ae37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d79660b750cabeb0100e2470ec26ae37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0afb874b021733a994d122109ca7733a--men-fashion-casual-gentleman-fashion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0afb874b021733a994d122109ca7733a--men-fashion-casual-gentleman-fashion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store-display-window-light-decorative-bike-fashion-boutique-display-window-mannequins-store-sale-window-front-shop-470743172.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit.jpg_220x220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit.jpg_220x220.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e3aa68a972de9ec4f1ebe63a0f09291e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e3aa68a972de9ec4f1ebe63a0f09291e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabiya boutique  (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabiya boutique  (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32395307521083ffed8e1a57c3795264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32395307521083ffed8e1a57c3795264.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7e828dc619e373126485e8982455bd78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7e828dc619e373126485e8982455bd78.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sri-sai-designer-boutique-miyapur-hyderabad-cvg5k1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sri-sai-designer-boutique-miyapur-hyderabad-cvg5k1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (5)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CL-211A_2_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CL-211A_2_large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC-Fabrics-6555-1-weddingplz2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ABC-Fabrics-6555-1-weddingplz2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J.couture-Junaid-Jamshed-Men-Sherwanis-Collection-for-Weddings-Paries-2015-2016-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J.couture-Junaid-Jamshed-Men-Sherwanis-Collection-for-Weddings-Paries-2015-2016-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57dcf0e98eda02cf0eedcc395b6d2c17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\57dcf0e98eda02cf0eedcc395b6d2c17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b7cnb87cvb-dress-design-salwar-kameez-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b7cnb87cvb-dress-design-salwar-kameez-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-Two-Pieces-font-b-Pakistani-b-font-font-b-Dresses-b-font-Green-Bling-Sequins1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10-fashion-boutiques" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10-fashion-boutiques.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxxe_box_store_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\luxxe_box_store_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7e828dc619e373126485e8982455bd781" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7e828dc619e373126485e8982455bd781.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retail-employee-research-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retail-employee-research-report.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anarkali-Stylish-Red-Frocks-for-Wedding-Bridals-2016-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anarkali-Stylish-Red-Frocks-for-Wedding-Bridals-2016-7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-summer-style-fashion-black-birds-print-font-b-Baby-b-font-boys-brand-t-shirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-summer-style-fashion-black-birds-print-font-b-Baby-b-font-boys-brand-t-shirt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1.0x0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.0x0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cosmetics-employee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cosmetics-employee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fancy-Dresses-latest-Designs-20161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fancy-Dresses-latest-Designs-20161.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13892187_1326669984040350_7565637278338882334_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13892187_1326669984040350_7565637278338882334_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazzling-Cute-kids-wear-party-function-frocks-designs-2017-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazzling-Cute-kids-wear-party-function-frocks-designs-2017-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2016-new-brand-double-pcs-men-suit-vest-waistcoat-men-casual-good-quality-sleeveless-slim-fit.jpg_220x2201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Платье-а-силуэта-фото-модные-тенденции-2016-2017-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Платье-а-силуэта-фото-модные-тенденции-2016-2017-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dependienta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dependienta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drophilla-world-blue-georgette-special-occasion-dre-original" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drophilla-world-blue-georgette-special-occasion-dre-original.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-New-font-b-Kids-b-font-Clothing-Sets-T-shirt-Short-font-b-Pants-b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-New-font-b-Kids-b-font-Clothing-Sets-T-shirt-Short-font-b-Pants-b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4c7b2f70a52c7cd6a3c90eed380398af" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4c7b2f70a52c7cd6a3c90eed380398af.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.0x01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rBVaJFjIvSiAAt7jAADNpNMijd8629" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rBVaJFjIvSiAAt7jAADNpNMijd8629.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J.couture-Junaid-Jamshed-Men-Sherwanis-Collection-for-Weddings-Paries-2015-2016-91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC-Fabrics-6555-1-weddingplz1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ABC-Fabrics-6555-1-weddingplz1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24a2e1d0706719d5d9871fadba231af5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24a2e1d0706719d5d9871fadba231af5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-new-summer-style-fashion-100-Cotton-brand-stars-Baby-boy-t-shirt-with-half-pants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-new-summer-style-fashion-100-Cotton-brand-stars-Baby-boy-t-shirt-with-half-pants.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxurysociety_1844265_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\luxurysociety_1844265_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a99e16328a556f08b263c47da56c3c92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a99e16328a556f08b263c47da56c3c92.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4603f492a56a4a31d894b602b9622973--online-wedding-dresses-indian-wedding-dresses1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5aba4867201f8b980acbed22ca600f981" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5aba4867201f8b980acbed22ca600f981.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\738d75db1ee0cd6b6702c96116f3dc75--clothing-ideas-maxi1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123bf7c815990b5f6d3304e247f1cbfe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\123bf7c815990b5f6d3304e247f1cbfe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="02-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spring-Dresses-For-Girls-l9lyZs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spring-Dresses-For-Girls-l9lyZs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC-Fabrics-6555-1-weddingplz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ABC-Fabrics-6555-1-weddingplz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Latest-Party-Wear-Frocks-dresses-2015-2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Latest-Party-Wear-Frocks-dresses-2015-2016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (26).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fancy-Indian-Asian-Anarkali-Umbrella-Frocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fancy-Indian-Asian-Anarkali-Umbrella-Frocks.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-latest-classy-kurta-style-men-dress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-latest-classy-kurta-style-men-dress.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sri-sai-designer-boutique-miyapur-hyderabad-cvg5k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sri-sai-designer-boutique-miyapur-hyderabad-cvg5k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hermes_store_mumbai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hermes_store_mumbai.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="designer-kurta-suits-250x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\designer-kurta-suits-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="687f19a8b5e0df619765aa0afe5b9ae3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\687f19a8b5e0df619765aa0afe5b9ae3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017girl-baby-clothes-summer-brand-design-denim-tutu-princess-party-dress-for-infant-baby-clothing-sleeveless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017girl-baby-clothes-summer-brand-design-denim-tutu-princess-party-dress-for-infant-baby-clothing-sleeveless.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4c7b2f70a52c7cd6a3c90eed380398af1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4c7b2f70a52c7cd6a3c90eed380398af1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-Muchachas-Del-Verano-de-la-Ropa-de-Los-Cabritos-Determinados-Conjuntos-de-Ropa-de-Beb&amp;eacute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-Muchachas-Del-Verano-de-la-Ropa-de-Los-Cabritos-Determinados-Conjuntos-de-Ropa-de-Beb&amp;eacute.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a5a5796d70298db1bdd3198942878f7c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a5a5796d70298db1bdd3198942878f7c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="design-no---7015_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\design-no---7015_front.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asim-Jofa-Formal-Wear-Luxury-pret-2017-2018-Dresses-design-Collection-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="93aa74c5a2377fb119a8b17ca25393b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\93aa74c5a2377fb119a8b17ca25393b6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (22).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afe9c562ae80740ce42c23e51627a9091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afe9c562ae80740ce42c23e51627a9091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_4f2bb7ae-440c-437a-acfa-0d3c358ec496_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_4f2bb7ae-440c-437a-acfa-0d3c358ec496_large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7887c9816cfa7bd65b722deb75d6f7f8--baby-boy-fashion-kids-fashion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7887c9816cfa7bd65b722deb75d6f7f8--baby-boy-fashion-kids-fashion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017-new-korea-fashion-brand-men-clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017-new-korea-fashion-brand-men-clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5aa3e4728a3cd7e568f8f446d6a1eb09--moda-kids-boy-outfits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5aa3e4728a3cd7e568f8f446d6a1eb09--moda-kids-boy-outfits.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Latest-Pakistani-Party-Wear-Winter-Dresses-Collection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Latest-Pakistani-Party-Wear-Winter-Dresses-Collection.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
